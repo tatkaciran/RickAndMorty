@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RMLocationViewController.swift
 //  RickAndMorty
 //
 //  Created by tatkaciran on 26.01.2023.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class RMLocationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+       
     }
 
-
 }
-
